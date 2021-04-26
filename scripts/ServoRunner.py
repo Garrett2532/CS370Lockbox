@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO             
 import time
-#import Website as website
 servoPIN = 11
 buttonPIN = 40
+
 def test():
     GPIO.setmode(GPIO.BOARD)            #other GPIO mode was giving errors
     GPIO.setup(servoPIN, GPIO.OUT)
